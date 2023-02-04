@@ -11,11 +11,11 @@ This code is written in C language, "gedit" is used as a text editor and it is i
     3. gcc -o filename filename.c
     4. /.filename (this step executes the code, to produce race condition it has to be executed a few times or many times until it collides two processes but when the problem is solved with semaphore, you can execute how many times you want and it will not collide the processes)
     
-      This image shows the Race Condition Problem, where you can see two planes landing although there is space only for one of them.
+This image shows the Race Condition Problem, where you can see two planes landing although there is space only for one of them.
 ![Picture1](https://user-images.githubusercontent.com/94797611/216790469-c4cbe9d3-fc6e-4d28-bbc1-3938a23ea728.png)
     
     
-    And in this image we see the results after using semaphore to avoid Race Condition. 
+And in this image we see the results after using semaphore to avoid Race Condition. 
 ![Picture2](https://user-images.githubusercontent.com/94797611/216790517-a1b24392-c139-4c90-82eb-308ab70d3fe3.png)
 
       
